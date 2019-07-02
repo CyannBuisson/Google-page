@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://www.androidpolice.com/wp-content/uploads/2015/09/nexus2cee_new_google_icon.png">
+    <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="google.css">
+
+    <style type="text/css">
+      body{  overflow-y: hidden;}
+
+      #carton{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;}
+
+      .lien{
+        text-decoration: none;
+        color:rgb(33,33,33);
+        font-family:arial;
+        font-size: 13px;}
+      .lien:hover{
+        text-decoration: underline;
+        color:rgb(66,66,66);}
+
+      #haut{
+        display:flex;
+        height: 45px;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 3px;}
+
+      #gmail{
+        padding: auto;
+        margin-right: 17px;}
+
+      .element{  margin-right: 22px;}
+
+      a.bouton1{
+        padding: 8px 13px;
+        background: rgb(68,122,252);
+        color: white;
+        font-family: arial;
+        text-decoration:none;
+        font-size: 13px;
+        border-radius: 3px;}
+
+      #milieu{
+        flex-grow: 1;
+        padding-top: 145px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;}
+
+      #bidule{
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+      .recherche{
+        width: 600px;
+        height: 45px;
+        border-radius: 20px;
+        border: 1px solid rgb(220, 220, 220);
+        margin-top: 20px;
+        background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+        background-repeat: no-repeat;
+        background-position: bottom 10px right 20px;
+        background-size: 25px 25px;}
+
+      #machin{  display: flex;}
+
+      .element2{
+        margin: 20px 10px 0 10px;
+        padding: 10px 17px 10px 17px;
+        background-color: rgb(244, 244, 244);
+        color: rgb(94,99,104);
+        border-radius: 3px;
+        font-family: arial;
+        font-size: 14px;}
+
+      .element2:hover{
+        border: 1px solid rgb(198,198,198);
+        color:rgb(34,34,34);}
+
+      #bas{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;}
+
+      #bas1{
+        display: flex;
+        border-top: 1px solid rgb(225,225,225);
+        border-bottom: 1px solid rgb(225,225,225);
+        background-color: rgb(244, 244, 244);
+        height: 37px;
+        align-items: center;}
+
+      #bas2{
+        display: flex;
+        background-color: rgb(244, 244, 244);
+        height: 32px;
+        justify-content: space-between;}
+
+      .element4{display: flex;
+        align-items: center;
+        padding-left: 10px;}
+
+      #france{
+        font-size: 15px;
+        font-family: arial;
+        color:rgb(94,99,104);
+        padding-left: 20px;}
+
+      .element5{
+        padding: 10px 13px 0 13px;
+        color:rgb(94,99,104);
+        font-size: 13px;
+        font-family: arial;}
+
+      .lien2{text-decoration: none;  color:rgb(94,99,104);}
+      .lien2:hover{text-decoration: underline;}
+
+    </style>
+</head>
+
+<body>
+
+<div id="carton">
+  <div id="haut">
+    <div id="gmail"><a href="https://www.google.com/intl/fr/gmail/about/#" class="lien">Gmail</a></div>
+    <div class="element"><a href="https://www.google.fr/imghp?hl=fr&tab=wi&ogbl" class="lien">Images</a></div>
+    <div class="element"><img src="https://cdn4.iconfinder.com/data/icons/finite-application/16/grid-9-512.png" width="18px" height="18px"></div>
+    <div class="element"><a href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="bouton1"><b>Connexion</b></a></div>
+  </div>
+
+  <div id="milieu">
+    <div id="bidule">
+      <div id="google"><img src="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""/></div>
+      <div id="barrenavigation"><input type="search" name="barre" class="recherche"></div>
+    </div>
+    <div id="machin">
+      <div class="element2">Recherche Google</div>
+      <div class="element2">J'ai de la chance</div>
+    </div>
+  </div>
+
+  <div id="bas">
+    <div id="bas1">
+            <div id="france">France</div>
+    </div>
+    <div id="bas2">
+      <div class="element4">
+            <div class="element5"><a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="lien2">Publicité</a></div><div class="element5"><a href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" class="lien2">Entreprise</a></div><div class="element5"><a href="https://about.google/intl/fr_fr/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="lien2">A propos</a></div><div class="element5"><a href="https://www.google.com/search/howsearchworks/?fg=1" class="lien2">Comment fonctionne la recherche google ?</a></div>
+      </div>
+      <div class="element4">
+        <div class="element5"><a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=636976845254110623-2908107804&rd=1" class="lien2">Info consommateurs</a></div><div class="element5"><a href="https://policies.google.com/privacy?hl=fr&gl=fr" class="lien2">Confidentialité</a></div><div class="element5"><a href="https://policies.google.com/terms?hl=fr&gl=fr" class="lien2">Conditions</a></div><div class="element5"><a href="https://www.google.fr/preferences?hl=fr" class="lien2">Paramètres</a></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+
+</html>
